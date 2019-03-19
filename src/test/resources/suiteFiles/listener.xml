@@ -9,6 +9,8 @@
 	<listeners>
 		<listener
 			class-name="com.testing.framework.testng.listeners.MyListener"></listener>
+		<listener
+			class-name="org.uncommons.reportng.HTMLReporter"></listener>
 	</listeners>
 	<test name="Test">
 		<classes>

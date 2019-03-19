@@ -3,6 +3,7 @@ package com.testing.framework.testng.listeners;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 
 public class MyListener implements ITestListener{
 
@@ -16,6 +17,7 @@ public class MyListener implements ITestListener{
 	}
 
 	public void onTestFailure(ITestResult result) {
+		Reporter.log("Screenshot");
 		System.out.println("Failed Test -- Captureing screenshot "+result.getName());
 	}
 
