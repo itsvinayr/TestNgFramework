@@ -1,4 +1,4 @@
-package com.testing.framework.testng.assertions;
+package com.testing.framework.testng.hardAssertions;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
