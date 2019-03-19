@@ -3,7 +3,9 @@ package com.testing.framework.testng.hardAssertions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Runner {
+import com.testing.framework.testng.base.BaseClass;
+
+public class Runner extends BaseClass{
 	
 	@Test
 	public void test() {

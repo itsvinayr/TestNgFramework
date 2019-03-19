@@ -6,7 +6,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class BasicTest {
+import com.testing.framework.testng.base.BaseClass;
+
+public class BasicTest extends BaseClass{
 	
 	@BeforeTest
 	public void openDBConnection() {
